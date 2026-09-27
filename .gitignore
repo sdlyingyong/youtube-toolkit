@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 本地配置文件（可能含口令，绝不入库）
+exitctl.json
+.config/
+
+# 下载中间件 / 产物
+*.part
+*.parts/
+.*.chunks/
+*.webm
+*.mkv
+*.mp4
+*.m4a
+*.opus
+
+.DS_Store

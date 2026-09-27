@@ -1,0 +1,7 @@
+# 运行依赖（Python 3.10+）
+requests>=2.31.0          # exitctl.py 调控制接口
+yt-dlp>=2025.1.1          # 解析视频元数据与直链（也提供可执行文件）
+static-ffmpeg>=2.9        # 提供静态 ffmpeg / ffprobe，用于封装与校验
+
+# 另需系统自带 curl（macOS / Linux 均自带）
+# 另需 Node.js：yt-dlp 解 YouTube 的 JS 签名挑战必需，否则会报「确认你不是机器人」
